@@ -177,3 +177,26 @@ padding: 1rem 0.5rem;
 .summary{width: 100%;}
 }
     
+@media (max-width: 650px){
+
+    body{
+        align-items: flex-start;
+    }
+
+    .card{
+        box-shadow: none;
+    }
+
+    .card-container{
+        flex-direction: column;
+    }
+
+    .your-result{
+        width: 100%;
+        border-radius: 0 0 2rem 2rem;
+    }
+
+    .summary{
+        width: 100%;
+    }
+}
