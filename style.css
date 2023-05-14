@@ -55,3 +55,18 @@ body{
     align-items: center;
     gap: 1rem;
 }
+
+.bn{
+    padding: 1rem;
+    background-color:var(--Dark-gray-blue);
+    border-radius: 2rem;
+    border: none;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: white;
+    cursor: pointer;
+}
+
+.bn{
+    background: linear-gradient(to bottom,var(--Light-slate-blue), var(--Light-royal-blue));
+}
