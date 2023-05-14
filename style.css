@@ -160,22 +160,7 @@ padding: 1rem 0.5rem;
     color: var(--Dark-gray-blue) ;
 }
 
-@media screen and (max-width:500px){
-    body{
-        align-items: flex-start;
-        background-color: white;
-    }
-.card{
-    box-shadow: none;
-}
-.card-container{flex-direction: column;} 
 
-.result{width: 100%; border-radius: 0 0 1rem 1rem;}
-
-.result .info{width:250px;}
-
-.summary{width: 100%;}
-}
     
 @media (max-width: 650px){
 
@@ -191,7 +176,7 @@ padding: 1rem 0.5rem;
         flex-direction: column;
     }
 
-    .your-result{
+    .result{
         width: 100%;
         border-radius: 0 0 2rem 2rem;
     }
